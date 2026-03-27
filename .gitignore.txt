@@ -1,0 +1,27 @@
+# --- Flutter / Dart Specific ---
+**/.dart_tool/
+**/build/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/generated_plugin_registrant.dart
+**/.packages
+**/pubspec.lock  # Optional: Keep if you want exact versions, ignore for clean repo
+
+# --- C++ / Windows Specific ---
+**/x64/
+**/Debug/
+**/Release/
+**/*.exe
+**/*.dll
+**/*.pdb
+**/*.obj
+**/*.log
+
+# --- IDE Specific ---
+**/.vscode/
+**/.idea/
+**/*.iml
+**/DS_Store
+
+# --- User Specific ---
+.env
