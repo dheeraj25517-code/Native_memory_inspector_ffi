@@ -87,7 +87,6 @@ final class MEMORY_BASIC_INFORMATION extends Struct {
   @Uint32() external int Type;
 }
 
-// --- THE SERVICE ---
 
 class MemoryService {
   final _kernel32 = DynamicLibrary.open("kernel32.dll");
@@ -136,9 +135,6 @@ class MemoryService {
     return result;
   }
 
-  // --- 🧠 VM-AWARE EXPLORATION ENGINE ---
-
-// --- 🧠 DART VM TAGGING LOGIC ---
 
 bool _isSmi(int v) => (v & 1) == 0;
 int _decodeSmi(int v) => v >> 1;
@@ -211,5 +207,5 @@ InspectNode inspect(int address, List<MemoryRegion> regions) {
   );
 }}
 
-// --- VM SERVICE BRIDGE ---
+// --- VM SERVICE BRIDGE------
 
