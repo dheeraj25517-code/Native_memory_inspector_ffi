@@ -1,0 +1,29 @@
+name: memory_inspector_devtools
+description: "Native Memory Inspector UI"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  #devtools_extensions: ^0.1.0
+
+  # ✅ Keep this ONLY if you are still building for Windows Native
+  # and if test_3 has been fixed to remove Windows-only code for Mobile tests.
+  test_3:
+    path: "C:/Users/DHEERAJ KUMAR THOTA/test_3"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0 # Standard version
+
+flutter:
+  uses-material-design: true
+
+# ❌ REMOVED: devtools_extensions
+# ❌ REMOVED: dependency_overrides (This was the main cause of the Matrix4 error)

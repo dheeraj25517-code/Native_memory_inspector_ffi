@@ -1,0 +1,9 @@
+name: memory_inspector
+version: 0.0.1
+issueTracker: https://github.com/example/repo/issues
+repository: https://github.com/example/repo
+materialIconCodePoint: 0xe3c4                        # Memory icon (REQUIRED for tab)
+requiresConnection: true                             # Live app required
+
+# Optional: Custom icon
+# iconUrl: https://your-icon.com/icon.png
