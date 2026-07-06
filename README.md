@@ -97,9 +97,5 @@ flutter run -d windows
 ```
 
 
-Author-Dheeraj Kumar Thota
-* Systems + Dart FFI Developer
-* GSoC 2026 Applicant (Dart/Flutter)
-
 Note:
-This is a **prototype / research project** demonstrating feasibility of a **DevTools Memory Inspector extension**.
+This is a **research project** demonstrating feasibility of a **DevTools Memory Inspector extension**.
